@@ -28,7 +28,7 @@ namespace ClientSide
                 
                 UserInput();
 
-                var userInput = new BaseInputMode(int.Parse(_rowBegin),
+                var userInput = new BaseInputModel(int.Parse(_rowBegin),
                     int.Parse(_rowEnd),
                     int.Parse(_columnBegin),
                     int.Parse(_columnEnd),

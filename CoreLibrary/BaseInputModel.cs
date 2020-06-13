@@ -3,11 +3,11 @@
 
 namespace CoreLibrary
 {
-    public class BaseInputMode
+    public class BaseInputModel
     {
-        public BaseInputMode() { }
+        public BaseInputModel() { }
         
-        public BaseInputMode(int rowBegin, int rowEnd, int columnBegin, int columnEndEnd, string matrixLeftLeft, string matrixRight)
+        public BaseInputModel(int rowBegin, int rowEnd, int columnBegin, int columnEndEnd, string matrixLeftLeft, string matrixRight)
         {
             RowBegin = rowBegin;
             RowEnd = rowEnd;
